@@ -1,0 +1,7 @@
+{
+  "alarm": {
+    "sounds": [
+      { "name": "breakalarm:alarm" }
+    ]
+  }
+}

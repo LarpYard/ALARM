@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "breakalarm",
+  "version": "${version}",
+  "name": "Break Alarm",
+  "description": "Spielt einen Alarm und zeigt eine Warnung, wenn dein Tool fast kaputt ist.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.breakalarm.BreakAlarmClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
